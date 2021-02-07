@@ -1,9 +1,25 @@
-html,
-nav,
-a.navbar-brand {
+body,nav,
+a {
   scroll-behavior: smooth;
   font-family: "Great Vibes", cursive;
   font: 40 30px/0.8 "Great Vibes", Helvetica, sans-serif;
-  color: #fff;
+  /* color: rgba(196, 168, 255, 1); */
+  color: rgb(52, 166, 241);
+  background: none;
   text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+
+}
+body{
+background-color: rgba(51, 122, 183, 0.3);
+/* background-color: rgba(183, 99, 51, 0.3); */
+background-color: rgba(0, 0, 0, 0.87);
+/* background-color: rgba(12, 11, 19, 0.932); */
+}
+.icon-button{
+  border-radius: 50%;
+  font-size: 1.43em;
+  padding: 0.69em;
+}
+iframe#chess-hid{
+  display: none;
 }
